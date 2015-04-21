@@ -1,0 +1,54 @@
+* {
+	outline: 0px solid white !important;
+}
+
+body{
+	font-family: Helvetica;
+	font-size: 1.3em;
+}
+
+.app {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.image {
+	max-width: 450px;
+	padding: 20px;
+	background-color: gray;
+	color: black;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: navy;
+	line-height: 44px;
+	text-decoration: underline;
+}
+
+b {
+	color: navy;
+}
+
+.description {
+	max-width: 700px;
+	margin: 10px;
+	background-color: gray;
+	color: white;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.app{
+	display: -webkit-flex;
+	display: flex;
+}
